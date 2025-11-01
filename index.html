@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- ===== SEO META TAGS ===== -->
+  <meta name="description" content="Prime - Choose the perfect pricing plan for your business. Flexible monthly and yearly plans with free trials. Scale your business with our powerful features.">
+  <meta name="keywords" content="pricing plans, business software, SaaS, monthly plans, yearly plans, free trial, business growth">
+  <meta name="author" content="Prime">
+  <meta name="robots" content="index, follow">
+  
+  <!-- ===== OPEN GRAPH TAGS ===== -->
+  <meta property="og:title" content="Prime - Pricing Plans | Choose Your Perfect Plan">
+  <meta property="og:description" content="Scale your business with our flexible pricing plans. Start free and upgrade when you're ready.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://prime.com/pricing">
+  <meta property="og:image" content="https://prime.com/og-image.jpg">
+  
+  <!-- ===== TWITTER CARD TAGS ===== -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Prime - Pricing Plans">
+  <meta name="twitter:description" content="Choose the perfect plan for your business growth">
+  
+  <!-- ===== FAVICON & CANONICAL ===== -->
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <link rel="canonical" href="https://prime.com/pricing">
+  
+  <link rel="stylesheet" href="style.css">
+  <title>Prime - Pricing Plans | Choose Your Perfect Business Plan</title>
+  
+  <!-- ===== SCHEMA MARKUP ===== -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": "Prime Business Suite",
+    "description": "All-in-one business management platform",
+    "brand": "Prime",
+    "offers": {
+      "@type": "AggregateOffer",
+      "offerCount": "3",
+      "lowPrice": "19",
+      "highPrice": "99",
+      "priceCurrency": "USD"
+    }
+  }
+  </script>
+</head>
+<body>
+  <!-- ===== HEADER WITH IMPROVED NAVIGATION ===== -->
+  <header class="header" role="banner">
+    <div class="logo" aria-label="Prime">Prime</div>
+    
+    <!-- Improved Navigation with Dropdown -->
+    <nav class="nav-main" role="navigation" aria-label="Main navigation">
+      <ul class="nav-list">
+        <li class="nav-item">
+          <a href="#features" class="nav-link">Features</a>
+          <div class="dropdown">
+            <a href="#analytics">Analytics</a>
+            <a href="#automation">Automation</a>
+            <a href="#reports">Reports</a>
+            <a href="#integrations">Integrations</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a href="#solutions" class="nav-link">Solutions</a>
+          <div class="dropdown">
+            <a href="#startups">For Startups</a>
+            <a href="#enterprise">For Enterprise</a>
+            <a href="#teams">For Teams</a>
+            <a href="#agencies">For Agencies</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a href="#pricing" class="nav-link active">Pricing</a>
+        </li>
+        <li class="nav-item">
+          <a href="#resources" class="nav-link">Resources</a>
+          <div class="dropdown">
+            <a href="#blog">Blog</a>
+            <a href="#docs">Documentation</a>
+            <a href="#tutorials">Tutorials</a>
+            <a href="#webinars">Webinars</a>
+          </div>
+        </li>
+      </ul>
+    </nav>
+    
+    <div class="auth-buttons">
+      <a href="#login" class="btn btn-login" aria-label="Sign in to your account">Sign In</a>
+      <a href="#signup" class="btn btn-signup" aria-label="Get started with Prime">Get Started</a>
+    </div>
+    
+    <!-- Mobile Menu Button -->
+    <button class="mobile-menu-btn" aria-label="Toggle navigation menu" aria-expanded="false">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </header>
+
+  <!-- ===== HERO SECTION ===== -->
+  <main role="main">
+    <section class="hero" aria-labelledby="main-heading">
+      <div class="hero-content">
+        <h1 id="main-heading" class="fade-in">Choose Your Perfect Plan</h1>
+        <p class="fade-in delay-1">Scale your business with our flexible pricing plans. Start free and upgrade when you're ready.</p>
+        
+        <!-- Pricing Toggle -->
+        <div class="pricing-toggle fade-in delay-2">
+          <button class="toggle-btn active" data-plan="monthly" aria-pressed="true">Monthly</button>
+          <button class="toggle-btn" data-plan="yearly" aria-pressed="false">
+            Yearly <span class="savings-badge" aria-label="Save 20 percent">Save 20%</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Monthly Pricing -->
+      <div class="pricing-container monthly-pricing active" role="region" aria-labelledby="monthly-plans">
+        <h2 id="monthly-plans" class="sr-only">Monthly Pricing Plans</h2>
+        
+        <div class="pricing-card slide-up">
+          <div class="plan-badge">Starter</div>
+          <h3 class="plan-name">Essential</h3>
+          <div class="plan-price">$19</div>
+          <div class="plan-period">per month</div>
+          <ul class="plan-features" role="list">
+            <li role="listitem">Up to 5 projects</li>
+            <li role="listitem">Basic analytics</li>
+            <li role="listitem">Email support</li>
+            <li class="disabled" role="listitem">Advanced reports</li>
+            <li class="disabled" role="listitem">Priority support</li>
+          </ul>
+          <button class="btn-card secondary" aria-label="Start free trial with Essential plan">Start Free Trial</button>
+        </div>
+
+        <div class="pricing-card featured slide-up delay-1">
+          <div class="plan-badge">Professional</div>
+          <h3 class="plan-name">Growth</h3>
+          <div class="plan-price">$49</div>
+          <div class="plan-period">per month</div>
+          <ul class="plan-features" role="list">
+            <li role="listitem">Unlimited projects</li>
+            <li role="listitem">Advanced analytics</li>
+            <li role="listitem">Priority support</li>
+            <li role="listitem">Custom reports</li>
+            <li role="listitem">API access</li>
+          </ul>
+          <button class="btn-card" aria-label="Start free trial with Growth plan">Start Free Trial</button>
+        </div>
+
+        <div class="pricing-card slide-up delay-2">
+          <div class="plan-badge">Enterprise</div>
+          <h3 class="plan-name">Scale</h3>
+          <div class="plan-price">$99</div>
+          <div class="plan-period">per month</div>
+          <ul class="plan-features" role="list">
+            <li role="listitem">Unlimited everything</li>
+            <li role="listitem">Dedicated account manager</li>
+            <li role="listitem">24/7 phone support</li>
+            <li role="listitem">Custom integrations</li>
+            <li role="listitem">SLA guarantee</li>
+          </ul>
+          <button class="btn-card secondary" aria-label="Contact sales for Enterprise plan">Contact Sales</button>
+        </div>
+      </div>
+
+      <!-- Yearly Pricing -->
+      <div class="pricing-container yearly-pricing" role="region" aria-labelledby="yearly-plans" hidden>
+        <h2 id="yearly-plans" class="sr-only">Yearly Pricing Plans</h2>
+        
+        <div class="pricing-card">
+          <div class="plan-badge">Starter</div>
+          <h3 class="plan-name">Essential</h3>
+          <div class="plan-price">$15</div>
+          <div class="plan-period">per month</div>
+          <div class="plan-period">billed annually ($180)</div>
+          <ul class="plan-features" role="list">
+            <li role="listitem">Up to 5 projects</li>
+            <li role="listitem">Basic analytics</li>
+            <li role="listitem">Email support</li>
+            <li class="disabled" role="listitem">Advanced reports</li>
+            <li class="disabled" role="listitem">Priority support</li>
+          </ul>
+          <button class="btn-card secondary" aria-label="Start free trial with Essential yearly plan">Start Free Trial</button>
+        </div>
+
+        <div class="pricing-card featured">
+          <div class="plan-badge">Professional</div>
+          <h3 class="plan-name">Growth</h3>
+          <div class="plan-price">$39</div>
+          <div class="plan-period">per month</div>
+          <div class="plan-period">billed annually ($468)</div>
+          <ul class="plan-features" role="list">
+            <li role="listitem">Unlimited projects</li>
+            <li role="listitem">Advanced analytics</li>
+            <li role="listitem">Priority support</li>
+            <li role="listitem">Custom reports</li>
+            <li role="listitem">API access</li>
+          </ul>
+          <button class="btn-card" aria-label="Start free trial with Growth yearly plan">Start Free Trial</button>
+        </div>
+
+        <div class="pricing-card">
+          <div class="plan-badge">Enterprise</div>
+          <h3 class="plan-name">Scale</h3>
+          <div class="plan-price">$79</div>
+          <div class="plan-period">per month</div>
+          <div class="plan-period">billed annually ($948)</div>
+          <ul class="plan-features" role="list">
+            <li role="listitem">Unlimited everything</li>
+            <li role="listitem">Dedicated account manager</li>
+            <li role="listitem">24/7 phone support</li>
+            <li role="listitem">Custom integrations</li>
+            <li role="listitem">SLA guarantee</li>
+          </ul>
+          <button class="btn-card secondary" aria-label="Contact sales for Enterprise yearly plan">Contact Sales</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== FEATURES SECTION ===== -->
+    <section class="features-section" aria-labelledby="features-heading">
+      <div class="container">
+        <h2 id="features-heading" class="section-heading fade-in">Everything You Need to Succeed</h2>
+        <p class="section-subtitle fade-in delay-1">Powerful features to grow your business</p>
+        
+        <div class="features-grid">
+          <div class="feature-card slide-up">
+            <div class="feature-icon" aria-hidden="true">🚀</div>
+            <h3>Fast Performance</h3>
+            <p>Lightning fast loading times and smooth interactions</p>
+          </div>
+          <div class="feature-card slide-up delay-1">
+            <div class="feature-icon" aria-hidden="true">🔒</div>
+            <h3>Secure & Reliable</h3>
+            <p>Enterprise-grade security with 99.9% uptime</p>
+          </div>
+          <div class="feature-card slide-up delay-2">
+            <div class="feature-icon" aria-hidden="true">📊</div>
+            <h3>Advanced Analytics</h3>
+            <p>Deep insights into your business performance</p>
+          </div>
+          <div class="feature-card slide-up delay-3">
+            <div class="feature-icon" aria-hidden="true">🌍</div>
+            <h3>Global Scale</h3>
+            <p>Scale your business to millions of users worldwide</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== FAQ SECTION ===== -->
+    <section class="faq-section" aria-labelledby="faq-heading">
+      <div class="container">
+        <h2 id="faq-heading" class="section-heading fade-in">Frequently Asked Questions</h2>
+        
+        <div class="faq-list">
+          <div class="faq-item slide-up">
+            <button class="faq-question" aria-expanded="false" aria-controls="faq1">
+              Can I change plans anytime?
+              <span class="faq-icon" aria-hidden="true">+</span>
+            </button>
+            <div id="faq1" class="faq-answer" role="region">
+              <p>Yes, you can upgrade or downgrade your plan at any time. Changes take effect immediately, and we'll prorate the difference.</p>
+            </div>
+          </div>
+          
+          <div class="faq-item slide-up delay-1">
+            <button class="faq-question" aria-expanded="false" aria-controls="faq2">
+              Is there a free trial?
+              <span class="faq-icon" aria-hidden="true">+</span>
+            </button>
+            <div id="faq2" class="faq-answer" role="region">
+              <p>All plans include a 14-day free trial with full access to all features. No credit card required to start.</p>
+            </div>
+          </div>
+          
+          <div class="faq-item slide-up delay-2">
+            <button class="faq-question" aria-expanded="false" aria-controls="faq3">
+              What payment methods do you accept?
+              <span class="faq-icon" aria-hidden="true">+</span>
+            </button>
+            <div id="faq3" class="faq-answer" role="region">
+              <p>We accept all major credit cards, PayPal, and bank transfers for annual plans.</p>
+            </div>
+          </div>
+          
+          <div class="faq-item slide-up delay-3">
+            <button class="faq-question" aria-expanded="false" aria-controls="faq4">
+              Do you offer discounts for startups?
+              <span class="faq-icon" aria-hidden="true">+</span>
+            </button>
+            <div id="faq4" class="faq-answer" role="region">
+              <p>Yes! We offer special discounts for startups and educational institutions. Contact our sales team for more information.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer" role="contentinfo">
+    <div class="footer-content">
+      <div class="footer-section">
+        <h3>Product</h3>
+        <ul class="footer-links" role="list">
+          <li><a href="#features">Features</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          <li><a href="#integrations">Integrations</a></li>
+          <li><a href="#updates">Updates</a></li>
+        </ul>
+      </div>
+      
+      <div class="footer-section">
+        <h3>Resources</h3>
+        <ul class="footer-links" role="list">
+          <li><a href="#documentation">Documentation</a></li>
+          <li><a href="#tutorials">Tutorials</a></li>
+          <li><a href="#blog">Blog</a></li>
+          <li><a href="#community">Community</a></li>
+        </ul>
+      </div>
+      
+      <div class="footer-section">
+        <h3>Company</h3>
+        <ul class="footer-links" role="list">
+          <li><a href="#about">About</a></li>
+          <li><a href="#careers">Careers</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#partners">Partners</a></li>
+        </ul>
+      </div>
+      
+      <div class="footer-section">
+        <h3>Legal</h3>
+        <ul class="footer-links" role="list">
+          <li><a href="#privacy">Privacy</a></li>
+          <li><a href="#terms">Terms</a></li>
+          <li><a href="#security">Security</a></li>
+          <li><a href="#compliance">Compliance</a></li>
+        </ul>
+      </div>
+    </div>
+    
+    <div class="footer-bottom">
+      <p>&copy; 2025 Prime. All rights reserved. | Designed with ❤️ by <a href="https://wa.me/201093270155" target="_blank" rel="noopener">Khaled Adel</a></p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
